@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Gym - Personal Training</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+	<link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script> -->
+	<script src="./js/jquery.js"></script>
+
+	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> -->
+	<script src="./js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div id="header-inner">
+			<a href="#" id="logo"></a>
+			<nav>
+				<a href="#" id="menu-logo"></a>
+
+				<ul>
+					<li><a class="current" href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Facility</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="clearfix"></div>
+
+
+	<!--- Start Slider -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<div class="slider-wrap">
+		<section class="slider">
+			<ul class="slider1">
+				<li><img src="img/chest-fly.png" alt=""></li>
+				<li><img src="img/push-ups.png" alt=""></li>
+				<li><img src="img/inside-gym.png" alt=""></li>
+				<li><img src="img/training.png" alt=""></li>
+			</ul>
+		</section>
+	</div>
+
+	<script type="text/javascript">
+		$('.slider1').bxSlider({
+			mode: 'fade',
+			captions: false,
+			auto: true,
+			pager: false,
+
+		});
+		$('.slider2').bxSlider({
+			pager: false,
+			captions: true,
+			maxSlides: 3,
+			minSlides: 1,
+			slideWidth: 230,
+			slideMargin: 10
+		});
+		$('.slider3').bxSlider({
+			mode: 'fade',
+			captions: false,
+			auto: true,
+			pager: false,
+			controls: false,
+		});
+	</script>
+	<!--- End Slider -->
+
+	<div class="clearfix"></div>
+
+	<div id="inner-wrapper">
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-users"></i></td>
+			</div>
+			<h3>Grade a staff</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+				magnam fugit eaque voluptates voluptate odit ipsam soluta n
+		</section>
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-map-marker"></i></td>
+			</div>
+			<h3> a convenient location</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+				magnam fugit eaque voluptates voluptate odit ipsam soluta n
+		</section>
+
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-check-square-o"></i></td>
+			</div>
+			<h3>chech us out - fire</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+				magnam fugit eaque voluptates voluptate odit ipsam soluta n
+		</section>
+		<div class="clearfix"></div>
+
+		<article>
+			<img class="image-circle" src="img/gym-classes.png">
+		</article>
+		<aside>
+			<h3>our facility</h3>
+			<br>
+			<ul class="gim">
+				<li>
+					<h4>Lorem ipsum dolor sit amet consectetur.</h4>
+				</li>
+				<li>
+					<h4>Lorem ipsum dolor sit amet consectetur.</h4>
+				</li>
+				<li>
+					<h4>Lorem ipsum dolor sit amet consectetur.</h4>
+				</li>
+				<li>
+					<h4>Lorem ipsum dolor sit amet consectetur.</h4>
+				</li>
+			</ul>
+		</aside>
+		<div class="clearfix"></div>
+
+		<section class="one-third">
+
+			<h3>ladies section</h3>
+			<img src="img/ladies-gym.jpg" alt="" srcset="">
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+		</section>
+		<section class="one-third">
+
+			<h3>the gym floor</h3>
+			<img src="img/gym-floor.jpg" alt="" srcset="">
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+		</section>
+		<section class="one-third">
+
+			<h3>free weights</h3>
+			<img src="img/free-weights.jpg" alt="" srcset="">
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor numquam perspiciatis ratione voluptatum
+		</section>
+	</div> <!-- end of inner-wrapper -->
+	<div class="clearfix"></div>
+
+	<footer>
+		<div class="footer-inner">
+			<section class="one-third" id="footer-third">
+				<h3>Contact</h3>
+
+				<p>the gym <br>
+					<strong class="number">222-333-444 <br><br>
+						as 7 warri street kaduna</strong></p>
+			</section>
+
+			<section class="one-third" id="footer-third">
+				<h3>social</h3>
+				<br>
+				<ul class="social">
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+				</ul>
+			</section>
+
+			<section class="one-third" id="footer-third-last">
+				<h3>pages</h3>
+				<br>
+				<h5>
+					<a href="#">HOme</a>-
+					<a href="#">Facility</a>-
+					<a href="#">Pricing</a>-
+					<a href="#">Contact</a>
+				</h5>
+			</section>
+		</div>
+
+	</footer>
+	<footer class="second">
+		<p>&copy; the gym, 2007</p>
+	</footer>
+
+
+
+
+</body>
+
+</html>
